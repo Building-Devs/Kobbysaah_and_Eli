@@ -98,6 +98,7 @@ def asmt_5():
 			else:
 				print(" ",end=" ")
 		print()
+		#runs the nxt iteration of main for loop on the next line	
 	return ""
 			
 print(asmt_5())
