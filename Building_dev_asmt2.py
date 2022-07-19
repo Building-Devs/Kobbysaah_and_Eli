@@ -82,35 +82,25 @@ print(asmt_4())
 
 def asmt_5():
 	print("".center(50,"_"))
-	print("\nAssignment 5\n")
-	dec = num
+	print("\nAssignment 4\n")
 	for i in range(num):
-	#1st Square 
 		for j in range(num):
 			if j+i==num-1:
-			# the anti diagonal
-				print("*",end="  ")		
+				print("*",end=" ")		
 			elif j==num-1:
-			#last block of square
-				print(dec,end="  ")
-				dec-=1
+				print(i,end=" ")
 			else:
-				print("  ",end="  ")
-	
-			#2nd square to the right
-		for j in range(i): #range(i) will print one less column
-	
+				print(" ",end=" ")
+
+		for j in range(i): 
 			if j==i-1:
-			#diagonal of the one less columend square
-				print("*",end="  ")
+				print("*",end=" ")
 			else:
-				print("  ",end="  ")
-
-	print()
-	#runs the nxt iteration of main for loop on the next line
-	return ""	
+				print(" ",end=" ")
+		print()
+	return ""
+			
 print(asmt_5())
-
 
 
 
