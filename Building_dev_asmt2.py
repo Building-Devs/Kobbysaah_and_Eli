@@ -82,13 +82,13 @@ print(asmt_4())
 
 def asmt_5():
 	print("".center(50,"_"))
-	print("\nAssignment 4\n")
+	print("\nAssignment 5\n")
 	for i in range(num):
 		for j in range(num):
 			if j+i==num-1:
 				print("*",end=" ")		
 			elif j==num-1:
-				print(i,end=" ")
+				print(((num+1)-i),end=" ")
 			else:
 				print(" ",end=" ")
 
@@ -98,10 +98,10 @@ def asmt_5():
 			else:
 				print(" ",end=" ")
 		print()
-		#runs the nxt iteration of main for loop on the next line	
+    #runs the nxt iteration of main for loop on the next line
 	return ""
-			
 print(asmt_5())
+
 
 
 
